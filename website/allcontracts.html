@@ -95,10 +95,10 @@
               <ul class="nav navbar-nav ml-auto">
                 
                 <!-- About -->
-                <li class="nav-item active"><a href="index.html">About <b class="caret"></b></a></li>
+                <li class="nav-item"><a href="index.html">About <b class="caret"></b></a></li>
 
                 <!-- Start Sharing -->
-                <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Start Sharing <b class="caret"></b></a>
+                <li class="nav-item dropdown menu-large active"><a href="" data-toggle="dropdown" class="dropdown-toggle">Start Sharing <b class="caret"></b></a>
                   <ul class="dropdown-menu megamenu">
                     <li>
                       <div class="row">
@@ -112,15 +112,15 @@
                             <li class="nav-item"><a href="#" class="nav-link">Individuals</a></li>
                             <li class="nav-item"><a href="#" class="nav-link">Education</a></li>
                             <li class="nav-item"><a href="#" class="nav-link">Streamers</a></li>
-                            <li class="nav-item"><a href="allcontracts.html" class="nav-link">View All Contracts</a></li>
+                            <li class="nav-item active"><a href="contracts.html" class="nav-link">All Contracts</a></li>
                           </ul>
                         </div>
                         <div class="col-lg-3 col-md-6">
                           <h5>Portfolio</h5>
                           <ul class="list-unstyled mb-3">
-                            <li class="nav-item"><a href="#" class="nav-link">My Shares</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Open Contributions</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Past Contributions</a></li>
                             <li class="nav-item"><a href="#" class="nav-link">Watchlist</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">View All Contributions</a></li>
                           </ul>
                         </div>
                       </div>
@@ -144,8 +144,8 @@
                         <div class="col-lg-3 col-md-6">
                           <h5>My Contracts</h5>
                           <ul class="list-unstyled mb-3">
-                            <li class="nav-item"><a href="#" class="nav-link">Open Contracts</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Closed Contracts</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Current Contracts</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Past Contracts</a></li>
                             <li class="nav-item"><a href="#" class="nav-link">Light header</a></li>
                           </ul>
                         </div>
@@ -205,109 +205,200 @@
           </div>
         </div>
       </header>
-      <!-- Navbar End-->
-      
-      <section class="no-mb relative-positioned">
-        <!--
-        *** JUMBOTRON ***
-        _________________________________________________________
-        -->
-        <div style="background: url('img/jumbotron.png') ; background-size: cover;" class="jumbotron relative-positioned color-white text-md-center">
-          <div class="mask-primary"></div>
-          <div class="container">
-            <div class="row mb-small">
-              <div class="col-md-12 text-center">
-                <h1 class="jumbo-text">ShareXchange</h1>
-                <h3 class="text-uppercase jumbo-text">The world's first decentralized fundraising platform</h2>
+    <!-- Navbar End-->
+    
+      <div id="heading-breadcrumbs">
+        <div class="container">
+          <div class="row d-flex align-items-center flex-wrap">
+            <div class="col-md-7">
+              <h1 class="h2">All Contracts</h1>
+            </div>
+            <div class="col-md-5">
+              <ul class="breadcrumb d-flex justify-content-end">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active">All Contracts</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="container">
+          <div class="row bar">
+            <div class="col-md-3">
+              <!-- MENUS AND FILTERS-->
+              <div class="panel panel-default sidebar-menu">
+                <div class="panel-heading">
+                  <h3 class="h4 panel-title">Categories</h3>
+                </div>
+                <div class="panel-body">
+                  <ul class="nav nav-pills flex-column text-sm category-menu">
+                    <li class="nav-item"><a href="shop-category.html" class="nav-link d-flex align-items-center justify-content-between"><span>Individuals </span><span class="badge badge-secondary">42</span></a>
+                      <ul class="nav nav-pills flex-column">
+                        <li class="nav-item"><a href="shop-category.html" class="nav-link">Artists</a></li>
+                        <li class="nav-item"><a href="shop-category.html" class="nav-link">Streamers</a></li>
+                        <li class="nav-item"><a href="shop-category.html" class="nav-link">Musicians</a></li>
+                        <li class="nav-item"><a href="shop-category.html" class="nav-link">Students</a></li>
+                        <li class="nav-item"><a href="shop-category.html" class="nav-link">Entrepreneurs</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item"><a href="shop-category.html" class="nav-link active d-flex align-items-center justify-content-between"><span>Politicians  </span><span class="badge badge-light">123</span></a>
+                      <ul class="nav nav-pills flex-column">
+                        <li class="nav-item"><a href="shop-category.html" class="nav-link">Presidential Candidates</a></li>
+                        <li class="nav-item"><a href="shop-category.html" class="nav-link">Senators</a></li>
+                        <li class="nav-item"><a href="shop-category.html" class="nav-link">Representatives</a></li>
+                        <li class="nav-item"><a href="shop-category.html" class="nav-link">Governors</a></li>
+                        <li class="nav-item"><a href="shop-category.html" class="nav-link">State Elected Officials</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item"><a href="shop-category.html" class="nav-link d-flex align-items-center justify-content-between"><span>Humanitarian  </span><span class="badge badge-secondary">11</span></a>
+                      <ul class="nav nav-pills flex-column">
+                        <li class="nav-item"><a href="shop-category.html" class="nav-link">Charities</a></li>
+                        <li class="nav-item"><a href="shop-category.html" class="nav-link">People in Need</a></li>
+                        <li class="nav-item"><a href="shop-category.html" class="nav-link">Natural Disasters</a></li>
+                        <li class="nav-item"><a href="shop-category.html" class="nav-link">Local Improvements</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="panel panel-default sidebar-menu">
+                <div class="panel-heading d-flex align-items-center justify-content-between">
+                  <h3 class="h4 panel-title">Contract Rewards</h3><a href="#" class="btn btn-sm btn-danger"><i class="fa fa-times-circle"></i><span class="d-none d-md-inline-block">Clear</span></a>
+                </div>
+                <div class="panel-body">
+                  <form>
+                    <div class="form-group">
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox"> Shares  (10)
+                        </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox"> Collectibles  (12)
+                        </label>
+                      </div>
+                    </div>
+                    <button class="btn btn-sm btn-template-outlined"><i class="fa fa-pencil"></i> Apply</button>
+                  </form>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-md-9">
+              <p class="text-muted lead">Here you can find all open contracts</p>
+              <div class="row products products-big">
+                <div class="col-lg-4 col-md-6">
+                  <div class="product">
+                    <div class="image"><a href="shop-detail.html"><img src="img/Kanye.jpg" alt="" class="img-fluid image1"></a></div>
+                    <div class="text">
+                      <h3 class="h5"><a href="shop-detail.html">Kanye West<br/>Presidential Campaign</a></h3>
+                      <p class="price">Raised: 142,000 XGS</p>
+                    </div>
+                    <div class="ribbon-holder">
+                        <div class="ribbon new">Politician</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="product">
+                    <div class="image"><a href="shop-detail.html"><img src="img/bernie.png" alt="" class="img-fluid image1"></a></div>
+                    <div class="text">
+                      <h3 class="h5"><a href="shop-detail.html">Bernie Sanders Presidential Campaign</a></h3>
+                      <p class="price">
+                        <p class="price">Raised: 800,000 XGS</p>
+                      </p>
+                    </div>
+                    <div class="ribbon-holder">
+                      <div class="ribbon new">Politician</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="product">
+                    <div class="image"><a href="shop-detail.html"><img src="img/donald.jpg" alt="" class="img-fluid image1"></a></div>
+                    <div class="text">
+                      <h3 class="h5"><a href="shop-detail.html">Donny Duck 4 Office</a></h3>
+                      <p class="price">Raised: 1,000,000 XGS</p>
+                    </div>
+                    <div class="ribbon-holder">
+                        <div class="ribbon new">Politician</div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="product">
+                    <div class="image"><a href="shop-detail.html"><img src="img/flint.jpg" alt="" class="img-fluid image1"></a></div>
+                    <div class="text">
+                      <h3 class="h5"><a href="shop-detail.html">Clean Water for Flint, MI</a></h3>
+                      <p class="price">Raised: 6,000,000 XGS </p>
+                    </div>
+                    <div class="ribbon-holder">
+                        <div class="ribbon gift">Charity</div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="product">
+                    <div class="image"><a href="shop-detail.html"><img src="img/vanny.jpg" alt="" class="img-fluid image1"></a></div>
+                    <div class="text">
+                      <h3 class="h5"><a href="shop-detail.html">Vanilla Ice</a></h3>
+                      <p class="price">Raised: 0 XGS </p>
+                    </div>
+                    <div class="ribbon-holder">
+                      <div class="ribbon sale">Musician</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="product">
+                    <div class="image"><a href="shop-detail.html"><img src="img/vincent.jpeg" alt="" class="img-fluid image1"></a></div>
+                    <div class="text">
+                      <h3 class="h5"><a href="shop-detail.html">Vincent Van L'Gogh</a></h3>
+                      <p class="price">Raised: 2,000 XGS</p>
+                    </div>
+                    <div class="ribbon-holder">
+                      <div class="ribbon sold">Artist</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pages">
+                <p class="loadMore text-center"><a href="#" class="btn btn-template-outlined"><i class="fa fa-chevron-down"></i> Load more</a></p>
+                <nav aria-label="Page navigation example" class="d-flex justify-content-center">
+                  <ul class="pagination">
+                    <li class="page-item"><a href="#" class="page-link"> <i class="fa fa-angle-double-left"></i></a></li>
+                    <li class="page-item active"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item"><a href="#" class="page-link">4</a></li>
+                    <li class="page-item"><a href="#" class="page-link">5</a></li>
+                    <li class="page-item"><a href="#" class="page-link"><i class="fa fa-angle-double-right"></i></a></li>
+                  </ul>
+                </nav>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-6 mb-small"><img src="" alt="" class="img-fluid"></div>
-              <div class="col-md-6 text-center-sm">
-                <p class="text-uppercase text-bold">On ShareX we allow anyone to raise money without discrimination</p>
-                <p class="no-letter-spacing">Sign up to start sharing today!</p>
-                <p><a href="#packages" class="scroll-to btn btn-template-outlined-white">See Contracts</a></p>
-              </div>
-            </div>
           </div>
         </div>
-        <!-- *** JUMBOTRON END ***-->
-      </section>
-
-      <!-- Why Blockchain-->
-      <section class="bar bg-gray no-mb padding-big text-md-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <h2 class="text-uppercase">Why Blockchain?</h2>
-              <p class="lead mb-small">Seamless Transactions, Digital Collectibles, and a Transparent Ecosystem</p>
-              <p class="mb-small">ShareX is built within the GoChain infrastructure allowing for over 1200 transactions/s. By using blockchain technology, we can keep all transactions public creating a trustless user experience.</p>
-              <p><a href="#" class="btn btn-template-main">Read more</a></p>
-            </div>
-            <div class="col-md-6 text-center"><img src="img/template-easy-customize.png" alt="" class="img-fluid"></div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Why ShareX -->
-      <section class="bar no-mb color-white padding-big text-md-center bg-primary">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 text-center"><img src="img/template-easy-code.png" alt="" class="img-fluid"></div>
-            <div class="col-md-6">
-              <h2 class="text-uppercase">Why use ShareX</h2>
-              <p class="lead mb-small">Complete Transparency, Rewards, and more!</p>
-              <p class="mb-small">ShareX can be used to: fund political campaigns or startups, market and sell artwork/clothing, raise money for charities, help out students, donate to streamers, etc.</p>
-              <p><a href="#" class="btn btn-template-outlined-white">Read more</a></p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Rewards -->
-      <section class="bar bg-gray no-mb padding-big text-md-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <h2 class="text-uppercase">Wait, Did You Say Rewards?</h2>
-              <p class="lead mb-small">Sure Did!</p>
-              <p class="mb-small">When someone creates a contract, they have two options to reward users. The first is if they are selling/creating a product, the contributers can be rewarded in tokens. These tokens can be exchanged for the product described in the contract. If the contract creator is not creating/selling a product, they can issue contributers unique digital collectibles. These UDC's can be collected or traded on our asset exchange for Shares.</p>
-              <p><a href="#" class="btn btn-template-main">Read more</a></p>
-            </div>
-            <div class="col-md-6 text-center"><img src="img/template-easy-customize.png" alt="" class="img-fluid"></div>
-          </div>
-        </div>
-      </section>
-
-      <section id="packages" class="bar no-mb">
-        <div data-animate="fadeInUp" class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="heading text-center">
-                <h2>Trending Contracts</h2>
-              </div>
-              <p class="lead">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-              <!-- Top Contracts -->
-              <!-- Top Contracts End -->
-            </div>
-          </div>
-        </div>
-      </section>
-
+      </div>
+    
+    
       <footer class="main-footer">
-        <div class="copyrights">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4 text-center-md">
-                <p>&copy; 2018 ShareX</p>
-              </div>
-              <div class="col-lg-8 text-right text-center-md">
-                <p>Created by Maurice Christopher for the 2018 GoBuild Hackathon</p>
-                <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+          <div class="copyrights">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 text-center-md">
+                  <p>&copy; 2018 ShareX</p>
+                </div>
+                <div class="col-lg-8 text-right text-center-md">
+                  <p>Created by Maurice Christopher for the 2018 GoBuild Hackathon</p>
+                  <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+                </div>
               </div>
             </div>
           </div>
-        </div>
       </footer>
     </div>
     <!-- Javascript files-->
