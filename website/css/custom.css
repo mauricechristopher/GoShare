@@ -1,5 +1,10 @@
 /* your styles go here */
 
+.amt {
+    position: absolute;
+    display: block;
+}
+
 .addy {
     text-align: center;
 }
