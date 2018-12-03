@@ -1,15 +1,22 @@
-function saveValues() {
-    var frm = document.form1;
+$(document).ready(function(){
 
-    var record = ""
-            +       frm.text1.value
-            + "," + frm.text2.value
-            + "," + frm.text3.value
-            + "\n";
-
-    frm.textarea1.value += record;
-}
-
-function clearText() {
-    document.form1.textarea1.value = "";
-}
+    $('#btnSubmit').bind("click",function(event){
+      // initialize variables
+      var contractName = $("#cxt_name").val();
+      var ownerAddress = $("#owner").val();
+   
+      // make temporary object for easy storage
+      var contactObj = {
+        contract: contractName,
+        owner: ownerAddress
+      };
+   
+      event.preventDefault();
+      console.log(contactObj);
+    });
+    // you can use the above or the one shown below
+    $('#btnSubmit').click(function(e){
+      e.preventDefault();
+      // your statements;
+    });
+});

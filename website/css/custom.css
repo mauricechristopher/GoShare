@@ -1,1 +1,10 @@
 /* your styles go here */
+
+.addy {
+    text-align: center;
+}
+
+.myprogress {
+    position: relative;
+    margin-bottom: 25px;
+}
