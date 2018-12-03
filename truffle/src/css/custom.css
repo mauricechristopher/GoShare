@@ -1,0 +1,15 @@
+/* your styles go here */
+
+.amt {
+    position: absolute;
+    display: block;
+}
+
+.addy {
+    text-align: center;
+}
+
+.myprogress {
+    position: relative;
+    margin-bottom: 25px;
+}
